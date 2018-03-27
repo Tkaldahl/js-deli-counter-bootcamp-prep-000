@@ -24,7 +24,7 @@ function currentLine(katzDeliLine) {
     let i = 1
     let n = 2
     let lineReport = [`${1}. ${katzDeliLine[0]}`]
-    while (line[i]){
+    while (katzDeliLine[i]){
       lineReport.push(` ${n}. ${katzDeliLine[i]}`)
       i++
       n++
