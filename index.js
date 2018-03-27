@@ -1,5 +1,3 @@
-var katzDeli = []
-
 function takeANumber(katzDeliLine, name){
   while (katzDeliLine){
     katzDeliLine.push(name)
